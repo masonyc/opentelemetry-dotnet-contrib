@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+  <TargetFramework>netstandard2.0</TargetFramework>
+  <Description>OpenTelemetry Confluent Kafka Instrumentation</Description>
+  <PackageTags>$(PackageTags);Confluent Kafka</PackageTags>
+  <MinVerTagPrefix>Instrumentation.ConfluentKafka-</MinVerTagPrefix>
+  <Nullable>enable</Nullable>
+</PropertyGroup>
+
+<ItemGroup>
+  <PackageReference Include="Confluent.Kafka" Version="$(ConfluentKafkaPkgVer)" />
+  <PackageReference Include="OpenTelemetry.Api" Version="$(OpenTelemetryCoreLatestVersion)" />
+</ItemGroup>
+
+<ItemGroup>
+  <Compile Include="$(RepoRoot)\src\Shared\Guard.cs" Link="Includes\Guard.cs" />
+</ItemGroup>
+
+<ItemGroup>
+  <AdditionalFiles Remove=".publicApi\netstandard2.0\PublicAPI.Shipped.txt" />
+</ItemGroup>
+
+</Project>

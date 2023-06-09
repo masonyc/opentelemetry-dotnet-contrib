@@ -38,6 +38,7 @@
     <OpenTelemetryCoreLatestPrereleaseVersion>[1.5.0-rc.1]</OpenTelemetryCoreLatestPrereleaseVersion>
     <StackExchangeRedisPkgVer>[2.1.58,3.0)</StackExchangeRedisPkgVer>
     <CassandraCSharpDriverPkgVer>[3.16.0,4.0)</CassandraCSharpDriverPkgVer>
+    <ConfluentKafkaPkgVer>[2.1.1]</ConfluentKafkaPkgVer>
     <StyleCopAnalyzersPkgVer>[1.2.0-beta.435,2.0)</StyleCopAnalyzersPkgVer>
     <SystemNetHttp>[4.3.4,)</SystemNetHttp>
     <SystemReflectionEmitLightweightPkgVer>4.7.0</SystemReflectionEmitLightweightPkgVer>
